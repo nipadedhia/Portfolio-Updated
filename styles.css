@@ -1,0 +1,44 @@
+/* Contact Styles */
+
+/*Added background image (located in computer folder) in a HTML file using CSS file*/
+body {
+  background-image: url("./assets/Images/backgroundimage.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* google fonts */
+  font-family: "Roboto", sans-serif;
+  font-family: "Merriweather", serif;
+}
+
+/* line break after the header */
+hr {
+  background: white;
+  border: solid;
+  color: gray;
+}
+
+img.floatleft {
+  float: left;
+  margin: 4px;
+}
+
+.contact-form {
+  color: black solid;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+h1 {
+  color: teal;
+}
+
+.footer {
+  position: sticky;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: gray;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
